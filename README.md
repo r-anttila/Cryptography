@@ -36,4 +36,4 @@ in the finite field F_p, where g is a primitive root for F_p. The following algo
 
 # References
 1. Hoffstein, J., Piper, J., Silverman, J.H (2008) *An Introduction to Mathematical Cryptography*, Springer Science+Business Media, LLC
-2. Leinonen, M. (2020) *801698S-Cryptography Lecture Notes*, University of Oulu, unpublished 
+2. Leinonen, M. (2020) *Cryptography (801698S) Lecture Notes*, University of Oulu, unpublished 
