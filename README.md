@@ -20,8 +20,9 @@ The second "pure" primality test is the [Miller-Rabin primality test](https://en
 In addition to primality checks, the repository also contains multiple algorithms which aim to provide the prime factorization of a given number.
 
 ### Pollard p-1 algorithm
-
+**Not yet implemented**
 ### Pollard rho algorithm
+**Not yet implemented**
 
 ## Algorithms for Solving the Discrete Logarithm Problem
 A number of methods for solving the discrete logarithm problem (DLP) are implemented. The problem in DLP is solving for x in the equation 
@@ -31,8 +32,10 @@ g^x=h
 in the finite field F_p, where g is a primitive root for F_p. The following algorithms are implemented.
 
 ### Shanks Babystep-Giantstep algorithm
+**Not yet implemented**
 
 ### Pohlig-Helman algorithm
+**Not yet implemented**
 
 # References
 1. Hoffstein, J., Piper, J., Silverman, J.H (2008) *An Introduction to Mathematical Cryptography*, Springer Science+Business Media, LLC
