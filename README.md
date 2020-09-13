@@ -18,3 +18,7 @@ In addition to primality checks, the repository also contains multiple algorithm
 ### Pollard rho-algorithm
 
 ### Pohlig-Hellman-algorithm
+
+# References
+1. Hoffstein, J., Piper, J., Silverman, J.H (2008) *An Introduction to Mathematical Cryptography*, Springer Science+Business Media, LLC
+2. Leinonen, M. (2020) *801698S-Cryptography Lecture Notes*, University of Oulu, unpublished 
