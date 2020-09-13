@@ -9,7 +9,7 @@ def miller_rabin_test(n):
     ------
     Returns:
     ------
-    0: if the number n is prime (with high probability). 
+    0: if no witnesses were found (i.e. number n is prime). 
     (int): The first Miller-Rabin witness of n if the number is not prime i.e. the first number which does 
     not satisfy the Miller-Rabin conditions.
     '''
@@ -54,8 +54,3 @@ def miller_rabin_test(n):
         
 
     return 0
-
-
-
-            
-print(miller_rabin_test(2000003))

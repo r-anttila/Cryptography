@@ -13,11 +13,20 @@ This repository contains implementations of two pure primality checks, that is a
 ## Prime Factorization Algorithms
 In addition to primality checks, the repository also contains multiple algorithms which aim to provide the prime factorization of a given number.
 
-### Pollard p-1-algorithm
+### Pollard p-1 algorithm
 
-### Pollard rho-algorithm
+### Pollard rho algorithm
 
-### Pohlig-Hellman-algorithm
+## Algorithms for Solving the Discrete Logarithm Problem
+A number of methods for solving the discrete logarithm problem (DLP) are implemented. The problem in DLP is solving for x in the equation 
+
+g^x=h
+
+in the field F_p, where g is a primitive root for F_p. The following algorithms are implemented.
+
+### Shanks Babystep-Giantstep algorithm
+
+### Pohlig-Helman algorithm
 
 # References
 1. Hoffstein, J., Piper, J., Silverman, J.H (2008) *An Introduction to Mathematical Cryptography*, Springer Science+Business Media, LLC
