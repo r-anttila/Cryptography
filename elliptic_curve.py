@@ -1,3 +1,4 @@
+from finite_field import FFieldElement
 
 
 class EC(object):
@@ -17,9 +18,9 @@ class EC(object):
         elif 4*A ^ 3+27*B ^ 2 == 0:
             raise Exception("The discriminant can not be zero!")
         else:
+            self.A = FFieldElement(A, N)
+            self.B = FFieldElement(B, N)
             self.N = N
-            self.A = A
-            self.B = B
 
 
 class ECElement(object):
@@ -34,5 +35,5 @@ class ECElement(object):
 
     def __init__(self, ec, x):
         self.ec = ec
-        self.x = x
-        self.y
+        self.x = FFieldElement(x, ec.N)
+        self.ysquared = self.x.pow(3)+ec.A*self.x+ec.B

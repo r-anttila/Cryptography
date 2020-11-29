@@ -59,6 +59,9 @@ class FFieldElement(object):
     def __truediv__(self, other):
         return self * other.inverse()
 
+    def pow(self, power):
+        return FFieldElement(pow(self.value, power, self.order), self.order)
+
     def __eq__(self, other):
         return self.value == other.value and self.order == other.order
 
