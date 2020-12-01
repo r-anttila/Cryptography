@@ -1,6 +1,10 @@
 # Cryptography
-This repo contains python implementations of multiple cryptographic algorithms.
+This repo contains python implementations of multiple cryptographic algorithms as well as implementations of finite field arithmetic and elliptic curve (over a finite field) arithmetic. This is a personal project and the documentation is far from sufficient.
 The source material is listed below but the main source is the book "An Introduction to Mathematical Cryptography" by J. Hoffstein, J. Pipher and J.H. Silverman. 
+
+# Utilities
+## Finite Fields
+The file ´finite_field.py´ contains the class ´FFElement´, which implements an element of finite field of order n. We use the term field even though the algebraic structures are actually only rings when n is not a prime number. However we provide the ability to compute the inverse element of an element of the ring also when n is not a prime, provided it exists.
 
 # Algorithms
 ## Primality tests
