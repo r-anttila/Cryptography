@@ -1,3 +1,4 @@
+from group import RingElement
 
 class FField:
     """
@@ -33,8 +34,14 @@ class FField:
                 raise TypeError("The elements must belong to the same field")
         return wrapper
 
+    @staticmethod
+    def get_generator(ord):
+        '''
+        (Naively) try to find a generator of the finite field of order ord
+        '''
+        
 
-class FFieldElement(object):
+class FFieldElement(RingElement):
     """
     An element of a finite field.
     """
